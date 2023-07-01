@@ -1,0 +1,484 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background: $bg-1;
+    font-family: $fontFamily-1;
+    color: $fontColor-1;
+    font-weight: bold;
+}
+
+a{
+    color: $fontColor-1;
+    text-decoration: none;
+    display: block;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex-ais{
+    align-items: start;
+}
+
+.d-flex-rev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.d-flex-wrap{
+    flex-wrap: wrap;
+}
+
+.d-flex-start{
+    justify-content: start;
+}
+
+.pd-10{
+    padding: 10px;
+}
+.pd-tb-20{
+    padding: 20px 0 20px 0;
+}
+
+.mb-160{
+    margin-bottom: 160px;
+}
+
+.mb-80{
+    margin-bottom: 80px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-22{
+    margin-bottom: 22px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.mtb-20{
+    margin: 20px 0 20px 0;
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.mr-100{
+    margin-right: 100px;
+}
+
+.imgSize-160{
+    max-width: 160px;
+}
+
+.container-top {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.header{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+}
+
+.intro{
+    h1{
+        font-size: $fsz-1;
+        line-height: $lineHeight-1;
+        margin-bottom: 40px;
+    }
+    a{
+        text-align: center;
+        max-width: 160px;
+        padding: 20px 40px 20px 40px;
+        border: 1px solid #fff;
+        border-radius: 16px;
+        margin-bottom: 100px;
+    }
+}
+
+.flow{
+    img{
+        max-width: 30%;
+        height: auto;
+    }
+}
+
+.service{
+    font-size: $fsz-2; 
+}
+
+.serviceinform-left{
+    max-width: 32%;
+}
+
+.serviceinform-right{
+    max-width: 66%;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+
+.service-card{
+    padding: 80px 40px 80px 40px;
+    border: 1px solid #525252;
+    border-radius: 16px;
+    width: 32%;
+}
+
+.inform-text{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.cooperate{
+    font-size: 32px;
+}
+
+.feedback{
+    background: rgba(255,255,255,0.08);
+    padding: 40px;
+    width: 32%;
+    border-radius: 16px;
+}
+
+.feedback-text{
+    min-height: 215px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.introMan{
+    margin-bottom: 4px;
+    line-height: 24px;
+}
+
+.introMan-company{
+    margin-bottom: 0;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.container-card{
+    background: #fff;
+    border-radius: 160px;
+    color: #000;    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        margin: 160px 0 80px 0;
+    }
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    max-width: 68%;
+    background: #F2F2F2;
+    border-radius: 16px;
+    padding: 20px 40px 20px 40px;
+    margin-bottom: 36px;
+    img{
+        margin-right: 15px;
+    }
+    input{
+        border: 0;
+        background: none;
+        width: 100%;
+    }
+}
+
+.choosebar{
+    max-width: 68%;
+    margin-bottom: 40px;
+}
+
+.selectItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #F2F2F2;
+    border-radius: 16px;
+    padding: 20px 32px 20px 40px;
+}
+
+.material-icons{
+    scale: 60%;
+}
+
+.selectItem-class{
+    a{
+        display: block;
+        color: #000;
+        padding: 8px 16px 8px 16px;
+        margin: 4px;
+        &:hover{
+            background: #F2F2F2;
+            border-radius: 16px;
+        }
+    }
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.cardItem{
+    border: 1px solid #F2F2F2;
+    border-radius: 16px;
+    width: 33%;
+    margin-bottom: 24px;
+    img{
+        border-radius: 16px 16px 0 0;
+    }
+}
+
+.cardItem-pd{
+    padding: 20px 32px 20px 32px;
+    border-top: 1px solid #F2F2F2;
+}
+
+.cardItem-intro-title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.cardItem-intro-text{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #525252;
+}
+
+.card-text-nor{
+    font-weight: normal;
+}
+
+.page{
+    max-width: 68%;
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+
+.pageItem{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    a{
+        display: block;
+        max-width: 48px;
+        max-height: 48px;
+        color: #000;
+        display: block;
+        font-size: 14px;
+        padding: 17px;
+        &:hover{
+            background: #000;
+            color: #fff;
+            border-radius: 16px;
+        }
+    }
+}
+
+.container-footer{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.endService{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 78px 0 80px 0;
+    p{
+        font-size: 48px;
+        line-height: 57.6px;
+    }
+}
+
+.btn{
+
+    border: 1px solid #FFFFFF;
+    margin: 40px 0 80px 0;
+    border-radius: 16px;
+    a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 32px 20px 40px;
+        &:hover{
+            color: #000;
+            background: #fff;
+            border-radius: 16px;
+        }
+    }
+}
+
+.endintro{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 80px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.endintro-text{
+    font-size: 80px;
+    line-height: 96px;
+}
+
+.footer{
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cornerTitle{
+    padding: 12px 0 12px 0;
+    border-bottom: 2.5px solid #000;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkItem{
+    display: flex;
+    justify-content: space-between;
+    a{
+        padding: 12px 0 12px 0;
+        margin: 10px;
+        &:hover{
+            border-bottom: 2.5px solid #fff;
+        }
+    }
+}
+
+.footer-right{
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 0 12px 0;
+        &:hover{
+            border-bottom: 2.5px solid #fff;
+        }
+    }
+}
+
+@media(max-width: 375px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+        img{
+            margin-bottom: 20px;
+        }
+    }
+    .intro{
+        h1{
+            font-size: 48px;
+            line-height: 57.6px;
+        }
+    }
+    .feedback-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback{
+        width: 100%;
+    }
+    .service-card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card{
+        width: 100%;
+    }
+
+    .flow{
+        justify-content: center;
+    }
+    .service-top{
+        flex-direction: column;
+        align-items: start;
+    }
+    .serviceinform-left{
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    .serviceinform-right{
+        font-size: 32px;
+        line-height: 38.4px;
+    }
+    .content{
+        h2{
+            font-size: 32px;
+            line-height: 38.4px;
+            text-align: center;
+            max-width: 100%;
+        }
+    }
+    .choosebar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .selectItem-class{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardItem{
+        width: 100%;
+    }
+    .container-card{
+        border-radius: 20px;
+    }
+    .endService{
+        p{
+            font-size: 32px;
+            line-height: 38.4px;
+            text-align: center;
+        }
+    }
+    .endintro{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer .footer-left .linkItem{
+        flex-direction: column;
+    }
+}
